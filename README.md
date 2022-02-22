@@ -28,6 +28,14 @@ Marina CHAU, Noé LALLOUET, Clément CHAUVET, Antoine BAÜMLER
 # How we worked
 
 ## Exploratory Data Analysis
+We first proceded with an exploration of the weather.csv dataset. You can find our analysis in the `weatherForecast_EDA` notebook.
+We noticed that there were many not relevant features in our dataset, such as game parameters (GearBox Assist, Break Assist, etc).
+To explore the dataset, we grouped it by sessions.
+
+One conclusion of this exploration was that the dataset lacked of features that can help predict the weather forecast accurately (Less than 6 features). 
+We also noticed that some classes were missing.
+
+In the second time, we then decided to explore the json file. Unlike the 50 sessions found in the weather.csv, we found 250 sessions. 
 
 ## Prediction model
 
