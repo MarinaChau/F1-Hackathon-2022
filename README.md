@@ -31,6 +31,8 @@ Marina CHAU, Noé LALLOUET, Clément CHAUVET, Antoine BAÜMLER
 
 ## Prediction model
 
+## Data Augmentation
+
 # What we brought to the Challenge
 
 ## Use of new weather dataset to improve the model engine
