@@ -40,11 +40,11 @@ In the second time, we then decided to explore the json file. Unlike the 50 sess
 For both dataset, the class repartition is very unbalanced:
 
 Counts of items per class: {0: 376767, 1: 101197, 2: 28108, 3: 13216, 4: 4946, 5: 850}
- * % of class 0: 71.75366227117946
-* % of class 1: 19.272535441948335
-*  % of class 2: 5.353048274180893
-*   % of class 3: 2.516930624433424
-*    % of class 4: 0.9419445269709228
+*     % of class 0: 71.75366227117946
+*      % of class 1: 19.272535441948335
+*      % of class 2: 5.353048274180893
+*      % of class 3: 2.516930624433424
+*      % of class 4: 0.9419445269709228
 *      % of class 5: 0.161878861286956
 
 
