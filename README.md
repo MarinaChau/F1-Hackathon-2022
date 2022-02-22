@@ -1,5 +1,8 @@
 # F1-Hackathon-2022
 This repository is for the Hackmakers F1 competitions.
+In this repository, you will find our code to predict Weather for the F1 2020 Game. We are also predicting the rain percentage.
+
+
 We are participating to the 2022 edition of the hackmakers competition about Formula 1.
 
 
@@ -22,5 +25,17 @@ physics engine that behaves like the real world.
 
 Marina CHAU, Noé LALLOUET, Clément CHAUVET, Antoine BAÜMLER
 
-In this repository, you will find our code to predict Weather for the F1 2020 Game. We are also predicting the rain percentage.
+# How we worked
+
+## Exploratory Data Analysis
+
+## Prediction model
+
+# What we brought to the Challenge
+
+## Use of new weather dataset to improve the model engine
+
+## Add the notion of Spatiality
+
+
 
