@@ -40,7 +40,7 @@ We also noticed that some classes were missing.
 
 In the second time, we then decided to explore the json file. Unlike the 50 sessions found in the weather.csv, we found 250 sessions. 
 
-For both dataset, the class repartition is very unbalanced:
+For both datasets, the class repartition is very unbalanced:
 
 Counts of items per class: {0: 376767, 1: 101197, 2: 28108, 3: 13216, 4: 4946, 5: 850}
 *     % of class 0: 71.75366227117946
