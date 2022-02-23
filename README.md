@@ -61,5 +61,5 @@ Indeed, we wanted to bring some real conditions in the game, so we searched for 
 
 ## Add the notion of Spatiality
 
-
+![Alt text](url "Title")
 
