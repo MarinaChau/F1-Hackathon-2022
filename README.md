@@ -30,7 +30,7 @@ Marina CHAU, Noé LALLOUET, Clément CHAUVET, Antoine BAÜMLER
 
 ## Exploratory Data Analysis
 
-[The notebook **WeatherForecast_EDA.ipynb**](Notebooks/.ipynb) contains the prediction process.
+[The notebook **WeatherForecast_EDA.ipynb**](Notebooks/WeatherForecast_EDA.ipynb) contains the prediction process.
 We first proceded with an exploration of the weather.csv dataset. You can find our analysis in the `weatherForecast_EDA` notebook.
 We noticed that there were many not relevant features in our dataset, such as game parameters (GearBox Assist, Break Assist, etc).
 To explore the dataset, we grouped it by sessions.
