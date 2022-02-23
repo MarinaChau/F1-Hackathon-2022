@@ -68,7 +68,7 @@ We are proud to report the following test set evaluation metrics:
 *      Forecast at T+30 : 0.87 weather type Categorical Accuracy
 *      Forecast at T+60 : 0.85 weather type Categorical Accuracy
 *      0.088 Rain percentage Mean Average Error (mean of predictions for the 5 future timesteps)
-![Alt text](/img_results/image.jpg "Model metrics on the test set.")
+![Alt text](/img_results/image.png "Model metrics on the test set.")
 
 Our model correclty outputs its predictions in the form of a dictionary, as we can see below.
 ![Alt text](/img_results/image2.png "Prediction for a random line.")
