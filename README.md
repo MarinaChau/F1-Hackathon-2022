@@ -56,11 +56,12 @@ We tested several models for the weather prediction challenge. Among our experim
 Our best performing model is the LSTM model. It has been trained with roughly 80% of the dataset.
 
 We are proud to report the following test set evaluation metrics:
-*      Forecast at T+5 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
-*      Forecast at T+10 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
-*      Forecast at T+15 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
-*      Forecast at T+30 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
-*      Forecast at T+60 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
+*      Forecast at T+5 : 0.97 weather type Categorical Accuracy
+*      Forecast at T+10 : 0.92 weather type Categorical Accuracy
+*      Forecast at T+15 : 0.88 weather type Categorical Accuracy
+*      Forecast at T+30 : 0.87 weather type Categorical Accuracy
+*      Forecast at T+60 : 0.85 weather type Categorical Accuracy
+*      0.088 Rain percentage Mean Average Error (mean of predictions for the 5 future timesteps)
 
 ## Data Augmentation
 
