@@ -1,6 +1,7 @@
 # F1-Hackathon-2022
 This repository is for the Hackmakers F1 competitions.
 In this repository, you will find our code to predict Weather for the F1 2020 Game. We are also predicting the rain percentage.
+Especially, [the notebook **deep_learning_predictions.ipynb**](Notebooks/deep_learning_predictions.ipynb) contains the prediction process.
 
 
 We are participating to the 2022 edition of the hackmakers competition about Formula 1.
