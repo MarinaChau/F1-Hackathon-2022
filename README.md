@@ -1,7 +1,7 @@
 # F1-Hackathon-2022
 This repository is for the Hackmakers F1 competitions.
 In this repository, you will find our code to predict Weather for the F1 2020 Game. We are also predicting the rain percentage.
-Especially, [the notebook **deep_learning_predictions.ipynb**](Notebooks/deep_learning_predictions.ipynb) contains the prediction process.
+This page serves as a document presenting our solutions. Links to relevant notebooks are included.
 
 
 We are participating to the 2022 edition of the hackmakers competition about Formula 1.
@@ -29,6 +29,8 @@ Marina CHAU, Noé LALLOUET, Clément CHAUVET, Antoine BAÜMLER
 # How we worked
 
 ## Exploratory Data Analysis
+
+[The notebook **WeatherForecast_EDA.ipynb**](Notebooks/.ipynb) contains the prediction process.
 We first proceded with an exploration of the weather.csv dataset. You can find our analysis in the `weatherForecast_EDA` notebook.
 We noticed that there were many not relevant features in our dataset, such as game parameters (GearBox Assist, Break Assist, etc).
 To explore the dataset, we grouped it by sessions.
@@ -58,6 +60,7 @@ At the same time, we set up a small receiver to obtain more data with more weath
 
 ## Prediction model
 
+[The notebook **deep_learning_predictions.ipynb**](Notebooks/deep_learning_predictions.ipynb) contains the prediction process.
 We tested several models for the weather prediction challenge. Among our experimentations, we focused on Recurrent Neural Networks (RNNs), in the form of LSTM Networks and GRU Networks, as well as Transformer architecture.
 
 Our best performing model is the LSTM model. It has been trained with roughly 80% of the dataset.
