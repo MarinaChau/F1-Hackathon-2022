@@ -61,6 +61,12 @@ Indeed, we wanted to bring some real conditions in the game, so we searched for 
 
 ## Add the notion of Spatiality
 
-![Alt text](/img_results/RP03.png "Title")
+Moreover, in formula 1, it is crucial for the driver to know the driving conditions at each corner. By driving conditions, we mean visibility, the track temperature, if it is raining, etc.
+However, in the formula 1 game, the weather is the same for the whole track. It is an assumption that can be fatal in real life. Indeed, for a track as long as Spa-Francorchamps, it can rain on one corner of the track, and it can be dry on the other side. We thus decided to do a weather prediciton corner by corner, with the help of GPS coordinate. 
+For each corner, we know the weather conditions, thus for each corner we will predict an accurate weather forecast.
 
-![Alt text](/img_results/wf02.png "Title")
+![Alt text](/img_results/RP03.png "Rain percentage on the track")
+
+
+
+![Alt text](/img_results/wf02.png "Weather Forecast on the track")
