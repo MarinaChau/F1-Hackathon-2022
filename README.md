@@ -53,6 +53,11 @@ For example, the class "Storm" (5) accounts for less than 1% of the dataset.
 
 ## Data Augmentation
 
+On day 1, we jumped into the challenge trying to work with the csv version of the dataset. We quickly realized that the json contained far more information (~250 sessions vs ~50 for the csv). As all our Exploratory Data Analysis pipeline was build around the csv format, we developped a small script to transform the data to a relational model. It really helped to be able to work on Oracle Cloud with huge amount of RAM to load the data in a single batch and transform it.
+
+At the same time, we set up a small receiver to obtain more data with more weather diversity from the videogame F1 2020 using the f1-2020-telemetry package. It allowed us to run the game on certain tracks that needed more input. We mostly ran the game in the background on FP1 sessions. 
+
+
 # What we brought to the Challenge
 
 ## Use of new weather dataset to improve the model engine
