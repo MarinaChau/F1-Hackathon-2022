@@ -28,18 +28,36 @@ Marina CHAU, Noé LALLOUET, Clément CHAUVET, Antoine BAÜMLER
 # How we worked
 
 ## Exploratory Data Analysis
+We first proceded with an exploration of the weather.csv dataset. You can find our analysis in the `weatherForecast_EDA` notebook.
+We noticed that there were many not relevant features in our dataset, such as game parameters (GearBox Assist, Break Assist, etc).
+To explore the dataset, we grouped it by sessions.
+
+One conclusion of this exploration was that the dataset lacked of features that can help predict the weather forecast accurately (Less than 6 features). 
+We also noticed that some classes were missing.
+
+In the second time, we then decided to explore the json file. Unlike the 50 sessions found in the weather.csv, we found 250 sessions. 
+
+For both dataset, the class repartition is very unbalanced:
+
+Counts of items per class: {0: 376767, 1: 101197, 2: 28108, 3: 13216, 4: 4946, 5: 850}
+*     % of class 0: 71.75366227117946
+*      % of class 1: 19.272535441948335
+*      % of class 2: 5.353048274180893
+*      % of class 3: 2.516930624433424
+*      % of class 4: 0.9419445269709228
+*      % of class 5: 0.161878861286956
+
+For example, the class "Storm" (5) accounts for less than 1% of the dataset.
 
 ## Prediction model
 
 ## Data Augmentation
 
-On day 1, we jumped into the challenge trying to work with the csv version of the dataset. We quickly realized that the json contained far more information (~250 sessions vs ~50 for the csv). As all our Exploratory Data Analysis pipeline was build around the csv format, we developped a small script to transform the data to a relational model. It really helped to be able to work on Oracle Cloud with huge amount of RAM to load the data in a single batch and transform it.
-
-At the same time, we set up a small receiver to obtain more data with more weather diversity from the videogame F1 2020 using the f1-2020-telemetry package. It allowed us to run the game on certain tracks that needed more input. We mostly ran the game in the background on FP1 sessions. 
-
 # What we brought to the Challenge
 
 ## Use of new weather dataset to improve the model engine
+As we've seen previously, it is difficult to make the prediction very accurate with few features. As an idea to improve our model, and also improve the game physics engine, we searched for other weather dataset.
+Indeed, we wanted to bring some real conditions in the game, so we searched for new features such as humidity, wind bearing, wind speed, pressure, etc.
 
 ## Add the notion of Spatiality
 
