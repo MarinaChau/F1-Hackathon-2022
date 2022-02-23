@@ -117,8 +117,8 @@ class WeatherModel(Model):
     return tf.convert_to_tensor([dataset.pad_sequence(array=out)])
 
 
-  def predict(self, x, weather):
-    x = self.__mold_inputs(x, weather)
+  def predict(self, x, weather, dataset):
+    x = self.__mold_inputs(x, weather, dataset)
     logits = self.model.predict(x)
     molded_output = self.__mold_outputs(logits)
     return molded_output
