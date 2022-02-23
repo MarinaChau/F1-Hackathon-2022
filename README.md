@@ -51,6 +51,17 @@ For example, the class "Storm" (5) accounts for less than 1% of the dataset.
 
 ## Prediction model
 
+We tested several models for the weather prediction challenge. Among our experimentations, we focused on Recurrent Neural Networks (RNNs), in the form of LSTM Networks and GRU Networks, as well as Transformer architecture.
+
+Our best performing model is the LSTM model. It has been trained with roughly 80% of the dataset.
+
+We are proud to report the following test set evaluation metrics:
+*      Forecast at T+5 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
+*      Forecast at T+10 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
+*      Forecast at T+15 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
+*      Forecast at T+30 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
+*      Forecast at T+60 : weather type Categorical Accuracy, rain percentage Mean Absolute Error
+
 ## Data Augmentation
 
 On day 1, we jumped into the challenge trying to work with the csv version of the dataset. We quickly realized that the json contained far more information (~250 sessions vs ~50 for the csv). As all our Exploratory Data Analysis pipeline was build around the csv format, we developped a small script to transform the data to a relational model. It really helped to be able to work on Oracle Cloud with huge amount of RAM to load the data in a single batch and transform it.
